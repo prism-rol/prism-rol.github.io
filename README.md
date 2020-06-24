@@ -6,3 +6,10 @@ Contributors
 * Nibraas Khan
 * Joshua L. Phillips
 
+### Personal Reference Instructions
+
+Local Docker Testing 
+```
+docker run --name website-nginx -p 8080:80 -v /home/jphillips/Projects/jlphillipsphd.github.io:/usr/share/nginx/html:ro nginx
+```
+
